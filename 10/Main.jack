@@ -1,0 +1,45 @@
+// This file is part of www.nand2tetris.org
+// and the book "The Elements of Computing Systems"
+// by Nisan and Schocken, MIT Press.
+// File name: projects/10/Square/Main.jack
+
+// (derived from projects/09/Square/Main.jack, with testing additions)
+
+/** Initializes a new Square Dance game and starts running it. */
+/* Initializes a new Square Dance game and starts running it. 
+sdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdfdsf*/
+class Main /*
+IGNORE ME IGNORE ME
+IGNORE ME IGNORE ME*/{
+    static boolean test;    // Added for testing -- there is no static keyword
+                            // in the Square files.
+    function void main() {
+      var SquareGame game;
+      let game =/**IGNORE ME*/ SquareGame./*IGNORE ME
+      KEEP IGNORING ME*/new();
+      do game.run();
+      do/*IGNORE ME*/ game./**IGNORE ME*/dispose();
+      return;
+    }
+
+    function void more() {  // Added to test Jack syntax that is not used in
+        var int i, j;       // the Square files.
+        var String s;
+        var Array a;
+        if (false) {
+            let s = "//DONT IGNORE COMMENT IN STRING// //ALSO DONT IGNORE ME"; // IGNOE ME
+            let s = "DONT IGNORE/* COMMENT IN */STRING //ALSO/* DONT IG*/NORE ME"; // IGNOE ME
+            let s = "DONT IGNORE/** COMMENT IN */STR/***/ING  //ALSO/** DONT IG*/NORE ME"; // IGNOE ME
+            let s = "DONT IGNORE/* COMMENT IN */STRING //ALSO/** DONT IG*/NORE ME"; // IGNOE ME
+            // let s = "IGNORE ME/* BLA BLA IN */STRING" + "//ALSO/** BLA IG*/NORE ME";
+            let s = null;
+            let a[1] = a[2];
+        }
+        else {              // There is no else keyword in the Square files.
+            let i = i/*IGNORE ME*/ * (-j);
+            let j = j / (-2);   // note: unary negate constant 2
+            let i = i | j;
+        }
+        return;
+    }
+}

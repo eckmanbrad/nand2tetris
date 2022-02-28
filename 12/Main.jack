@@ -1,0 +1,7 @@
+class Main{
+    function void main(){
+        var Array ram;
+        let ram[16384] = 255;
+        return;
+    }
+}

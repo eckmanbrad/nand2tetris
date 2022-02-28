@@ -1,0 +1,28 @@
+eckmanbrad, tomer.avshalom
+===============================================================================
+Baruch Eckman, ID 328958244, baruch.eckman@mail.huji.ac.il
+Tomer Avshalom, ID 208928291, tomer.avshalom@mail.huji.ac.il
+===============================================================================
+
+                           Project 11 - Compilation, Continued
+                           -----------------------------------
+  
+
+Submitted Files
+---------------
+README - This file.
+JackCompiler - The executable.
+Makefile - A makefile for the project.
+JackCompiler.py - 
+JackTokenizer.py - 
+CompilationEngine.py - 
+VMWriter.py - 
+SymbolTable.py - 
+Include other files required by your project, if there are any.
+
+Remarks
+-------
+This project serves as a basic compiler for the Jack language as specified
+in the nand2tetris course. We assume valid Jack code as no compilation
+errors are raised. The program uses a highly recursive strategy
+to handle sophisticated expressions.

@@ -1,0 +1,27 @@
+eckmanbrad
+===============================================================================
+Baruch Eckman ID 328958244, baruch.eckman@mail.huji.ac.il
+===============================================================================
+
+                           Project 7 - Virtual Machine (Arithmetic)
+                           ----------------------------------------
+  
+
+Submitted Files
+---------------
+README - This file.
+VMtranslator - The executable.
+Makefile - A makefile for the project.
+Main.py - 
+Parser.py - 
+CodeWriter.py - 
+Include other files required by your project, if there are any.
+
+Remarks
+-------
+I tried to organize the code by using a one-to-one mapping between
+vm commands and asm code using Python dictionaries. The strategy was
+breaking down common asm patterns into small asm code snippets, and 
+using them as building blocks to construct the various functionalities
+of the vm commands. Hopefully in this way the expansion in project 8
+will be fairly easy.

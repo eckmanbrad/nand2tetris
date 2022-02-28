@@ -1,0 +1,11 @@
+function Main.main 1
+push constant 16384
+push local 0
+add
+push constant 255
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 0
+return
